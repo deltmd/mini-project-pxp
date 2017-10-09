@@ -2,38 +2,37 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/reset.css">
     <script src="https://use.fontawesome.com/1bec6ec2e6.js"></script>
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="./shared.css">
     <title>Home</title>
   </head>
 
   <body>
     <header>
-
       <nav class="">
-
         <div class="nav__nav-links-wrapper">
-          <a href="#" class="nav__nav-link">Home Page</a>
-          <a href="#" class="nav__nav-link">About</a>
+          <a href="../index.html" class="nav__nav-link">Home Page</a>
+          <a href="../about.html" class="nav__nav-link">About</a>
         </div>
-
         <div class="nav__nav-right-wrapper">
           <button type="button" class="nav__nav-btn">GET INVOLVED</button>
           <button type="button" class="nav__nav-btn">CONTACT US</button>
           <div class="nav__nav-search-wraper">
             <input type="text" class="nav__nav-search-field" placeholder="Search">
-            <button type="button" class="btn-circle"><i class="fa fa-search"></i></button>
+            <a href="./search.html"><button type="button" class="btn-circle"><i class="fa fa-search"></i></button></a>
           </div>
         </div>
-
       </nav>
 
-      <div class="header__main-wrapper">
-        <h1 class="">LATEST ARTICLE TITLE</h1>
-        <div class="header__main-button-wraper">
-          <button type="button" class="header__main-button">READ MORE</button>
-          <div class="header__main-button-border"></div>
+      <div class="header__home-main-wrapper">
+        <div class="header__home-main-wrapper-inner">
+          <h1 class="">LATEST ARTICLE TITLE</h1>
+          <div class="header__home-main-button-wraper">
+            <a href="./article.html">
+              <button type="button" class="header__home-main-button">READ MORE</button>
+              <div class="header__home-main-button-border"></div>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -41,80 +40,88 @@
 
     <main>
 
-      <div class="main__article-container">
-        <div class="main__article-sub-divider">
-          <article class="">
-            <h1>ARTICLE TITLE</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="article__main-button-wraper">
-              <button type="button" class="article__main-button">READ MORE</button>
-              <div class="article__main-button-border"></div>
-            </div>
+      <div class="home-main__article-container">
+        <div class="home-main__article-sub-divider">
+          <article class="home-main__arcle">
+            <h1 class="home-main__arcle-h1">ARTICLE TITLE</h1>
+            <p class="home-main__arcle-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="./article.html">
+              <button type="button" class="home-main__arcle-button">READ MORE</button>
+              <div class="home-main__arcle-button-border"></div>
+            </a>
           </article>
-          <img src="../images/mesh.png" alt="" class="main__article-sub-divider-img">
+          <img src="../images/mesh.png" alt="" class="home-main__article-sub-divider-img">
         </div>
 
-        <div class="main__article-sub-divider">
-          <article class="">
-            <h1>ARTICLE TITLE</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="article__main-button-wraper">
-              <button type="button" class="article__main-button">READ MORE</button>
-              <div class="article__main-button-border">READ MORE</div>
+        <div class="home-main__article-sub-divider">
+          <article class="home-main__arcle">
+            <h1 class="home-main__arcle-h1">ARTICLE TITLE</h1>
+            <p class="home-main__arcle-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="home-main__arcle-button-wraper">
+              <a href="./article.html">
+                <button type="button" class="home-main__arcle-button">READ MORE</button>
+                <div class="home-main__arcle-button-border"></div>
+              </a>
             </div>
           </article>
-          <img src="../images/woman-baby.png" alt="" class="main__article-sub-divider-img">
-        </div>
-      </div>
-
-      <div class="main__article-container">
-        <div class="main__article-sub-divider">
-          <img src="../images/earphone.png" alt="" class="main__article-sub-divider-img">
-          <article class="">
-            <h1>ARTICLE TITLE</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="article__main-button-wraper">
-              <button type="button" class="article__main-button">READ MORE</button>
-              <div class="article__main-button-border"></div>
-            </div>
-          </article>
-        </div>
-
-        <div class="main__article-sub-divider">
-          <img src="../images/earphones.png" alt="" class="main__article-sub-divider-img">
-          <article class="">
-            <h1>ARTICLE TITLE</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="article__main-button-wraper">
-              <button type="button" class="article__main-button">READ MORE</button>
-              <div class="article__main-button-border"></div>
-            </div>
-          </article>
+          <img src="../images/woman-baby.png" alt="" class="home-main__article-sub-divider-img">
         </div>
       </div>
 
-      <aside class="aside__1-wraper">
+      <div class="home-main__article-container">
+        <div class="home-main__article-sub-divider">
+          <img src="../images/earphone.png" alt="" class="home-main__article-sub-divider-img">
+          <article class="home-main__arcle">
+            <h1 class="home-main__arcle-h1">ARTICLE TITLE</h1>
+            <p class="home-main__arcle-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="home-main__arcle-button-wraper">
+              <a href="./article.html">
+                <button type="button" class="home-main__arcle-button">READ MORE</button>
+                <div class="home-main__arcle-button-border"></div>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="home-main__article-sub-divider">
+          <img src="../images/earphones.png" alt="" class="home-main__article-sub-divider-img">
+          <article class="home-main__arcle">
+            <h1 class="home-main__arcle-h1">ARTICLE TITLE</h1>
+            <p class="home-main__arcle-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="home-main__arcle-button-wraper">
+              <a href="./article.html">
+                <button type="button" class="home-main__arcle-button">READ MORE</button>
+                <div class="home-main__arcle-button-border"></div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <aside class="home-aside__1-wraper">
         <button type="button" class="fa fa-plus-circle" aria-hidden="true"></button>
         <p>LOAD MORE</p>
       </aside>
 
-      <aside class="">
-        <div class="aside__2-wrapper">
+      <aside class="home-aside__2-wrapper">
+        <div class="home-aside__2-inner-wrapper">
           <div class="">
             <img src="../images/info.png" alt="">
-            <p class="aside__2-title">ABOUT US</p>
+            <p class="home-aside__2-title">ABOUT US</p>
           </div>
-          <div class="aside2__center-wrapper">
+          <div class="home-aside__2-bar"></div>
+          <div class="">
             <img src="../images/links.png" alt="">
-            <p class="aside__2-title">RELATED LINKS</p>
-            <p class="aside__2-p">GE Healthcare Ultrasound</p>
-            <p class="aside__2-p">Voluson Innovations</p>
-            <p class="aside__2-p">VolusonClub benefits</p>
+            <p class="home-aside__2-title">RELATED LINKS</p>
+            <p class="home-aside__2-p">GE Healthcare Ultrasound</p>
+            <p class="home-aside__2-p">Voluson Innovations</p>
+            <p class="home-aside__2-p">VolusonClub benefits</p>
           </div>
+          <div class="home-aside__2-bar"></div>
           <div class="">
             <img src="../images/wire-globe.png" alt="">
-            <p class="aside__2-title">MORE</p>
-            <p class="aside__2-p">Women's Health</p>
+            <p class="home-aside__2-title">MORE</p>
+            <p class="home-aside__2-p">Women's Health</p>
           </div>
         </div>
       </aside>
@@ -123,7 +130,7 @@
 
     <footer>
       <div class="container">
-        <div class="social__container">
+        <div class="social-logo__container">
           <p class="logo__p">Logo Goes Here</p>
           <div class="social-wrapper">
             <div class="social-circle fa fa-facebook"></div>
